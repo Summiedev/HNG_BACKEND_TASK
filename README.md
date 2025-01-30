@@ -51,7 +51,7 @@ GET https://hng-backend-task-pm5d.onrender.com/
 {
   "email": "apatirasummie@gmail.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/Summiedev"
+  "github_url": "https://github.com/Summiedev/HNG_BACKEND_TASK"
 }
 ```
 

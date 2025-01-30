@@ -12,7 +12,7 @@ def home():
     return jsonify({
         "email": "apatirasummie@gmail.com",
         "current_datetime": datetime.now(pytz.UTC).isoformat(),
-        "github_url": "https://github.com/Summiedev"
+        "github_url": "https://github.com/Summiedev/HNG_BACKEND_TASK"
     })
 
 
