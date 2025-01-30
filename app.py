@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from datetime import datetime
+from datetime import datetime, timezone
 from flask_cors import CORS
 import pytz
 
@@ -11,7 +11,7 @@ CORS(app)
 def home():
     return jsonify({
         "email": "apatirasummie@gmail.com",
-        "current_datetime": datetime.now(pytz.UTC).isoformat(),
+        "current_datetime": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "github_url": "https://github.com/Summiedev/HNG_BACKEND_TASK"
     })
 
